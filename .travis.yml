@@ -4,6 +4,14 @@ jdk: oraclejdk8
 install: true
 script: mvn install
 
+deploy: 
+  provider: cloudfoundry
+  username: drjesusf@gmail.com
+  password: C@sino@100584
+  api: https://api.run.pivotal.io
+  organization: drjesusf.org
+  space: staging
+  
 # - mvn -N io.takari:maven:wrapper
 # - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 # install: false
