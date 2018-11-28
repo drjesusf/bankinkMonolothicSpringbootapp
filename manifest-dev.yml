@@ -1,2 +1,4 @@
 applications:
-  - name: rest-app-drjesusf 
+- name: rest-app-drjesusf
+  buildpack: java_buildpack
+  
