@@ -1,4 +1,5 @@
 applications:
 - name: rest-app-drjesusf
-  buildpack: java_buildpack
+  buildpacks: 
+    - java_buildpack
   
