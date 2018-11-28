@@ -10,7 +10,7 @@ deploy:
   password: C@sin@100584
   api: https://api.run.pivotal.io
   organization: drjesusf.org
-  space: staging
+  space: development
   
 # - mvn -N io.takari:maven:wrapper
 # - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
