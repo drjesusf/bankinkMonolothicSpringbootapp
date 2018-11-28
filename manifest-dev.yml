@@ -1,6 +1,6 @@
 applications:
 - name: rest-app-drjesusf
-  path: /home/travis/build/drjesusf/bankinkMonolothicSpringbootapp/target
+  path: /home/travis/build/drjesusf/bankinkMonolothicSpringbootapp/target/springbootapp-0.0.1-SNAPSHOT.war
   buildpacks: 
     - java_buildpack
   
